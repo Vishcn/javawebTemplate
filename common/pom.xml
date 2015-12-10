@@ -11,5 +11,12 @@
 
     <artifactId>common</artifactId>
 
-
+    <dependencies>
+        <!--加入service依赖-->
+        <dependency>
+            <groupId>com.vishcn</groupId>
+            <artifactId>util</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

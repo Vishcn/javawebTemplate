@@ -11,5 +11,12 @@
 
     <artifactId>dao</artifactId>
 
-
+    <dependencies>
+        <!--加入service依赖-->
+        <dependency>
+            <groupId>com.vishcn</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
